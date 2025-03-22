@@ -1,15 +1,15 @@
-import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
-import Sidebar from "@/components/sidebar"
-import Player from "@/components/player"
-import "./globals.css"
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
+import Sidebar from "@/components/sidebar";
+import Player from "@/components/player";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Spotify Clone",
   description: "A Spotify-like music streaming UI built with Next.js",
-    generator: 'v0.dev'
+    generator: 'Arnav Joshi'
 }
 
 export default function RootLayout({ children }) {
